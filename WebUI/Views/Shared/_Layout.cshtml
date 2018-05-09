@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @RenderBody()
+    <div id="GreetingPage">
+
+    </div>
+
+    <header>
+        <nav class="navbar navigation">
+            <div class="container">
+                <span class="btn-information">hide</span>
+                <div class="row">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle collapsed menu_btn" data-toggle="collapse" data-target="#top_menu" aria-expanded="false">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        <a href="" class="navbar-brand logo">
+                            T-Mobile
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="top_menu">
+                        <ul class="nav navbar-nav navbar-right menu">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span>Categories</span>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu scrollable categories">
+                                    @{ Html.RenderAction("Categories", "Nav"); }
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span>Participants</span>
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu scrollable names">
+                                    @{ Html.RenderAction("Users", "Nav"); }
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="helpful-inforamtion">
+        <div class="s1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6 col-lg-offset-3 s1-1">
+                        <div class="col-sm-6 col-lg-6 column1">
+                            <span>Current category:</span>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 column2 category">
+                            <span><strong>All</strong></span>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-lg-6 col-lg-offset-3 s1-1">
+                        <div class="col-sm-6 col-lg-6 column1">
+                            <span>Current participant:</span>
+                        </div>
+                        <div class="col-sm-6 col-lg-6 column2 name">
+                            <span><strong>All</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="s2">
+            <div class="container">
+                <div class="row"></div>
+                <div id="siteEvents"></div>
+                <div id="more">
+                    <span id="getmore">More</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row soc_btns">
+
+                <a href="https://www.facebook.com" target="_blank" class="soc_btn">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="soc_btn">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="soc_btn">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="row copyright">
+                © 2017 Dmitriy Konshin Taganrog
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/TaskMessage")
+    @RenderSection("scripts", required: false)
+    <script>
+        $().ready(() => {
+            Program.Main();
+        });
+    </script>
+</body>
+</html>

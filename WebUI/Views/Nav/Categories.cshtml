@@ -1,0 +1,8 @@
+﻿@model IEnumerable<string>
+
+<li><a class="selected">All</a></li>
+<li role="separator" class="divider"></li>
+@foreach(string category in Model)
+{
+    <li><a>@category</a></li>
+}

@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="636802b3-5e12-45e3-a4ba-6dcbc6e3b847"
+  name="WebUI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="7d9fc319-a854-4935-a4ec-562303207b2a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="07eefefe-b059-40dc-a1e0-c42f3b614033"
+        name="BundleConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="48482b33-9f8f-4f70-a4f8-29eda843c8f9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DBundleConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1dd68275-2a17-4cbd-9a47-e306f7e5e4d5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8ba9c74-94b1-461b-810f-4328d31f029f">
+                <propertyInstance
+                  Id="033fb917-bf09-4b7e-bf2e-ea49de66469b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a37ee8b8-3a5c-4a6f-8604-33ac18da4b1d">
+                <propertyInstance
+                  Id="d45fa7fa-99b2-45cb-b66d-3a7b69d56c58"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22ed54d4-09c4-4038-bc0c-f79efe05eb40">
+                <propertyInstance
+                  Id="9222a570-67a2-4f4a-9ded-c3fe25d0dbb4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="113ffe1d-97e1-471d-a38d-247d4d775192">
+                <propertyInstance
+                  Id="12de5559-702a-4539-a436-7219d20eae93"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8e29eba-0ebd-4ad1-a4fd-f048a9794041">
+                <propertyInstance
+                  Id="aad03413-0e4c-4076-bec1-e41138aa8606"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="627898f4-4927-4f07-a283-09c7a73dc5a1"
+            name="RegisterBundles"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7c691679-d37a-46fb-8395-9f685fa515f1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.1.3%2Flib%2Fnet40%2FSystem.Web.Optimization.dll Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="500e4ed8-4692-49c0-b8f6-b617e087199a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3e5a565-9693-4f8b-a100-0c6123b744fc">
+                    <propertyInstance
+                      Id="5282a1ba-87d6-4bf0-ace8-cb761ade8d7a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36b2c34a-e791-4ef4-8286-66c72488beb5">
+                    <propertyInstance
+                      Id="462487fe-340f-441e-b686-5cf94d8e3a2d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="626c6453-5e76-40ee-acd4-ee6b48eafb2f">
+                    <propertyInstance
+                      Id="d1d0354f-76b6-48d7-ba8c-519c0537f754"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb98a907-a5b2-41d5-87f7-7e204f1417e4">
+                    <propertyInstance
+                      Id="bc43054c-ccd0-4bc8-842b-b27118247480"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64eb4053-8375-443d-a32c-d67282ed4ab8">
+                    <propertyInstance
+                      Id="b3ba2e70-071b-4949-8162-432b06e4750e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31e2325d-0189-4b3b-856f-58bfa446b954">
+                    <propertyInstance
+                      Id="bfaf2824-a43e-44a4-9bd9-c82b37da1139"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b1d71762-cf8f-4999-a65f-e802a41c14f9"
+                  name="bundles"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="837c7522-d8fc-43c8-96c8-8eb105647677"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.1.3%2Flib%2Fnet40%2FSystem.Web.Optimization.dll Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)]) ParameterIdentifier%3Dbundles"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4ac2c1f6-e813-4a93-aac2-30e4eba7b51f"
+                      LastKnownName="BundleCollection"
+                      LastKnownLocation="Package2_1302.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="af314f80-42eb-4b89-9330-febe3a5b766f"
+            name="BundleConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="253b3168-11df-4240-a36a-b715edb35241"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DBundleConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="150b33d5-9766-48bf-9640-ec9d6d420137"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db4f6afe-92fe-4322-be7f-02b156be0b81">
+                    <propertyInstance
+                      Id="0c6c2190-3260-4b87-8dc5-6bdfef442345"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c71a1c19-60e7-445c-b640-c1c98703b576">
+                    <propertyInstance
+                      Id="7a7c95da-e6c9-40da-b0b3-badc57d62569"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10f68270-73f6-4a30-b86f-642911e2717f">
+                    <propertyInstance
+                      Id="308ee656-ce1c-4ed3-b8c2-fd72444a7f63"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90d98699-c277-4dce-9529-d29fea7afa6f">
+                    <propertyInstance
+                      Id="356ee200-0047-4e98-8427-16da623d9479"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0771abd-69dd-4967-b16f-8419dcb857ae">
+                    <propertyInstance
+                      Id="83a073db-8b09-4874-b6df-0c2fb04da9f6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72f3527f-89b4-4452-a268-18b9eb726731">
+                    <propertyInstance
+                      Id="c39f0795-8cca-4e69-a98f-e0bfd1134d39"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1aaedfd9-fce9-4b79-9c89-3210ba7cef48"
+        name="FilterConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fb7507fb-acdd-4137-9fdd-64550aec302a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DFilterConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="105ccdf3-ad8b-44e2-875d-2c247602f211"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef05271e-b17e-4af4-b57f-42982ca90309">
+                <propertyInstance
+                  Id="c3b6f63b-9650-4a68-9198-3fe1a20ce129"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18916233-cd99-4e5f-97cc-3183ab71614d">
+                <propertyInstance
+                  Id="b3828ae7-6c14-4464-9e16-e52763b0c8b4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bf3989a-8044-452c-bb39-8953a99ae138">
+                <propertyInstance
+                  Id="1328592e-39ec-4d54-b9ba-fe2b697ff1f7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7537370c-1a48-4720-abaa-907f033cc284">
+                <propertyInstance
+                  Id="13978e0f-79b6-43e9-b691-c5b9f7c210a0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09f1faf7-5e62-4469-82e3-89ad53d0231d">
+                <propertyInstance
+                  Id="e95f31a9-4d32-4325-9654-263b18dff9bc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fa398f46-50da-4d15-8d7a-2c8821e35877"
+            name="RegisterGlobalFilters"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a178c2b7-c7ce-45a9-83c4-16b90d62956e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ee6e9e26-36b6-4702-b7e9-d16d75770cf8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2fe1e6b-1a42-4e92-af7a-86e8ea478fbb">
+                    <propertyInstance
+                      Id="90a70a66-0143-4576-9c45-65d82675bbe3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8682229-7974-414c-831b-39220629ad08">
+                    <propertyInstance
+                      Id="364cb6c7-033f-4225-9b4b-38a83c4b94d3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e29b67c-1b9b-4bcc-a3b2-0e7c6ed682af">
+                    <propertyInstance
+                      Id="b4437e2a-1217-41f0-95dd-f4e7aac4ca10"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="702cb894-c8a7-4672-81ea-4afdf202fedd">
+                    <propertyInstance
+                      Id="ea292697-083a-4b65-ad65-b5f02c509ad7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0fe21bf-9800-4658-9288-29497d2566e7">
+                    <propertyInstance
+                      Id="860edc2c-b9f5-49d6-884c-81b65c5756d2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6457fed1-64ec-45d1-9b21-1aca4cb593c3">
+                    <propertyInstance
+                      Id="c4b0ebf7-3edc-4836-91d3-3388329e431b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e4116f78-7d1b-4522-a079-19bc7268998e"
+                  name="filters"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3cef75e7-fe5c-4265-ba57-15cf357bb71a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.Mvc.5.2.3%2Flib%2Fnet45%2FSystem.Web.Mvc.dll Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)]) ParameterIdentifier%3Dfilters"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7e3e3de2-71a5-4a93-8142-345c3bd346e3"
+                      LastKnownName="GlobalFilterCollection"
+                      LastKnownLocation="Package3_1302.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7e1e8985-599b-45f7-88cf-da8c18bce64a"
+            name="FilterConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="81cbdea3-2f81-4140-8f2e-a430cbefc0ea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DFilterConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a5963d2d-ec04-4e1e-9f77-795f19c6d73e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a859fa0-58d3-455d-b85a-59a7c38679d6">
+                    <propertyInstance
+                      Id="8dadc040-3bc1-4921-bf21-5b368bf81e04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb7a5374-1a3a-434b-a168-f2ca587a19fd">
+                    <propertyInstance
+                      Id="22f8b564-5e31-4ee4-9aa7-feea47dfb4c4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92f0a0e0-6905-4da0-ba83-e460e6a98097">
+                    <propertyInstance
+                      Id="d639566b-5284-4cd1-8403-329881bad10b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="269f99a1-a325-41d1-914c-5275c5fe039a">
+                    <propertyInstance
+                      Id="fcc1da2e-28a0-44d8-8489-3d12a6667bfc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4789e65d-c4cf-4fab-8a40-998b01df5efd">
+                    <propertyInstance
+                      Id="bd2a6376-e12e-4a9e-a9db-53e31bf014ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7a7dadd-a2e6-4b27-a406-52b67433fcf9">
+                    <propertyInstance
+                      Id="3f78a1de-324e-4bbb-a8ba-d00ddd7e62f9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4db7641c-7449-48f6-9e77-3dc4e3a63c9d"
+        name="MvcApplication"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3d747116-cfcd-4360-80d4-af99235ad126"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DMvcApplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5684a793-2dea-4454-a60f-9e3c43562c4b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae718d13-9fbd-4407-8326-d821829fb206">
+                <propertyInstance
+                  Id="cc67a50a-ff6b-40f2-9fef-93b880500242"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97b32699-1bce-4858-9b01-d979327c86a3">
+                <propertyInstance
+                  Id="442b9f26-7e96-4484-bfe8-530bea4f294a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e185bb7e-ae9b-4518-aea8-fa3d47853c6d">
+                <propertyInstance
+                  Id="452d12f5-3d8a-4299-b6d7-062001e4f582"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9106c7d0-2b65-4749-8e8d-212682a355ee">
+                <propertyInstance
+                  Id="1788e718-6098-4f53-aa1e-6d09fb581df2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bc4be292-8ea6-4fa4-8773-e57ae838be1a">
+                <propertyInstance
+                  Id="659d9a5e-dbf2-44bf-aa8a-c792a404defe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="7baf6948-1a61-4472-a0c5-283676d3bc75"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c25735ae-708b-47b4-841c-d9f2fad7ad42"
+              LastKnownName="HttpApplication"
+              LastKnownLocation="Package1_1302.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="893f6b7a-30f8-4e78-b618-e393d75b0a7f"
+            name="Application_Start"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="32bba8f1-bcf9-43fa-b1fa-53441f25d11b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DMvcApplication Member%3DApplication_Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0997507-933b-4166-b1da-de3cc31f9d39"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f10d9e48-38f3-48d7-ba6b-31a67302fb35">
+                    <propertyInstance
+                      Id="9e27518a-8567-47f7-96b3-b0d989b78b62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8714b269-ca7c-44af-ae1d-90dcfe2ee22c">
+                    <propertyInstance
+                      Id="3363d772-3401-494f-8606-1eb4bea093e2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee2f60a3-6cae-4586-94d4-c7c0fcb44d11">
+                    <propertyInstance
+                      Id="77319f82-5b5f-4b14-ae4f-a7a57f6d7552"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45f80208-3971-49a7-a6ad-dc8ac4b8a00c">
+                    <propertyInstance
+                      Id="762ac50a-2e6a-427a-abc2-c8e60857c4ea"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="715273dc-6b97-4e33-8137-8ccf61a09cef">
+                    <propertyInstance
+                      Id="9cbe1351-1a1b-47c6-95d5-17402d57238e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fa65e92-a770-46c4-8da9-dbac699b4d10">
+                    <propertyInstance
+                      Id="f58ad74c-c1b6-487e-b2f3-e2d1f2c8531c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b1de322d-8787-4c26-8415-2ae628059825"
+            name="MvcApplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="35d7af40-f896-4d12-b1c4-28a3c491c28c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DMvcApplication Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0d1e392e-5631-4ab6-acc6-d35b5f411604"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48a889c9-6dcf-46fa-8c23-a99bcfba8226">
+                    <propertyInstance
+                      Id="940b8e00-2167-4926-b465-71efa62ccf8c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3f9e632-fec0-4831-9ec4-8f6e9443a947">
+                    <propertyInstance
+                      Id="f5a74ef9-d0b8-4ed2-9fd5-3fcd543372e9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d947442e-a6fd-4995-bf04-18af27a515db">
+                    <propertyInstance
+                      Id="554bc70b-590b-4498-b427-8e63690f82e2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="223fd970-a17c-473e-9fb3-73db0531c281">
+                    <propertyInstance
+                      Id="2b586b06-7570-4eed-ad03-56dcb5aa5a5b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03f03cbb-96c3-4e13-8e1f-2b1f1e732b95">
+                    <propertyInstance
+                      Id="17608290-f6b9-4087-afc4-f28daf5e89f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b24d29b9-6a6d-4ba3-9a5f-985038440b97">
+                    <propertyInstance
+                      Id="430b2f1d-7187-4881-bf18-b73f2222be21"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6681c991-affe-4b52-bc8f-5906d0bcc815"
+        name="RouteConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7196c5f3-cc6b-406b-b025-115ddf51d969"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DRouteConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ea846bb1-6586-4b09-bf70-e45e676d8808"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b61148d5-5bca-4fdb-a33b-a4399304e938">
+                <propertyInstance
+                  Id="29ae0dd3-5291-4d3d-bdf0-a8ac9a3af8c1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="085e4844-e090-4657-8cf8-18c83659f1d1">
+                <propertyInstance
+                  Id="9ca3a10a-4ea0-4629-9374-7ccc5b8a84d3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b90f8bd8-1e24-4316-a7ee-5851a4f53ef6">
+                <propertyInstance
+                  Id="2938fa1b-5d65-41a3-98ed-4d0108b49401"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d80a623-e7bc-41dd-ad3c-cd913f85582d">
+                <propertyInstance
+                  Id="da29b4e8-9746-46e0-88b6-a9704ffc53bf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7280a240-7675-4bce-ab3e-7292b15abe3e">
+                <propertyInstance
+                  Id="0fe87b52-153a-45a2-943a-fa930ff1344a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e35ad706-f567-492d-b624-88fc3ab17cde"
+            name="RegisterRoutes"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4872b3e4-3709-4828-9410-fb1cb02c1a6d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bcc72be5-98b6-4d7f-90c8-6564d433c854"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c3cfe3a-f604-4eff-b9dc-ebfde8d9bd03">
+                    <propertyInstance
+                      Id="9c8a94f2-1528-49a2-8c73-0456c1f2e05c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a662ce5-02a9-4827-ab4f-e89d3533c7b7">
+                    <propertyInstance
+                      Id="cdbc9cca-9f60-4e9d-944c-1f2feb6a5a20"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57846576-d035-4758-8825-b8594bd8a623">
+                    <propertyInstance
+                      Id="1378049d-22ac-4379-a92d-951ec4feb498"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58809be2-fb0b-469d-9d12-52ed85311fcb">
+                    <propertyInstance
+                      Id="079115fa-595b-4b8c-8970-532da9696850"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9557b356-ec7f-4970-b174-51a83bb6ac40">
+                    <propertyInstance
+                      Id="ca49d33a-fb9d-46e5-977e-c0604c3a931c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52f71079-0e58-43e3-94dc-6b7387bcb35d">
+                    <propertyInstance
+                      Id="7f7a8f4c-cf5c-488c-b54a-b2292e31948d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6bcc5c2c-4ede-4532-b6f1-b644c1218f0c"
+                  name="routes"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fdceb6bc-0899-4e6d-93d8-55ff69f6bef7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)]) ParameterIdentifier%3Droutes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0999f4e3-83d1-4a05-96c9-55501ed62188"
+                      LastKnownName="RouteCollection"
+                      LastKnownLocation="Package4_1302.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0bebb3d8-9b8a-4d7b-b1a0-10a343469170"
+            name="RouteConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff571eda-0786-49ae-be2b-9b82ba071279"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DRouteConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e336d4a6-66fe-4e0f-8163-e4a665297019"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81d8058a-769a-48f8-91df-6bedf64613ef">
+                    <propertyInstance
+                      Id="321d1929-c174-41ea-910e-197bb1a974cd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb74c10d-8147-4955-b5f1-c4c69bc84cf3">
+                    <propertyInstance
+                      Id="0491859a-fa15-4450-a7a0-266846476105"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36316c03-c30c-49e6-8fa7-af228b709e33">
+                    <propertyInstance
+                      Id="9529114a-6501-4001-9c00-f8068cc4feb3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb88cc16-40dd-4616-9ce9-a1472854e1b3">
+                    <propertyInstance
+                      Id="38e61f67-3f87-4216-8d7b-9af190cd32ba"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="912c1b2b-4b54-48b1-9177-5d47677a475e">
+                    <propertyInstance
+                      Id="f014c62f-742d-4b12-a90d-0bad303e2575"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d961237-ac46-4fd5-b5a4-34b7ebd0c99e">
+                    <propertyInstance
+                      Id="99debbbf-68ec-4c26-8f87-39121191b52f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d03d863e-cb1e-47b9-863d-df3144c93098"
+        name="WebApiConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9358a73b-96c8-451d-9cdd-a9bbfbabd9e8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DWebApiConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e939e491-934c-472e-9944-e555294df336"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3df0d524-e29a-470c-9561-7524a3732155">
+                <propertyInstance
+                  Id="d86b1908-ad68-4b7f-be95-fe7d46bd69f1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16097bef-56c8-40d4-99fc-77bd75fcb170">
+                <propertyInstance
+                  Id="3f42849c-4329-4427-8a74-a7e463494b2a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7994ccf2-8183-4308-a00b-fa8c97195732">
+                <propertyInstance
+                  Id="bd318ddc-c77a-42a7-9cd6-113430863891"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7b0e3d9-4128-4558-b356-451747c70b29">
+                <propertyInstance
+                  Id="c50ba5c0-b615-4e84-baae-62a94855a6ab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a015a59c-a7a9-4bbe-88c7-cc701901e8ec">
+                <propertyInstance
+                  Id="9f20cac3-4282-495a-b4bc-ab785efec97a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5bae8563-9f0e-46d9-a03a-4dc3903705fb"
+            name="Register"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="25d995d0-d231-4a58-a868-5632865deb10"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.2.3%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7496129d-b0f9-4ef3-8af2-294a8777ff35"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ffe4c3-239f-44a9-a252-21fe912d488c">
+                    <propertyInstance
+                      Id="228ae5a2-6e0a-4c79-81d5-ff2924ea456f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93b4f9c3-130d-47f6-84ed-8bf7747c86b6">
+                    <propertyInstance
+                      Id="02b0482c-ad70-48d4-b5a0-1115ca64381b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07c87df3-0ba8-4a04-84b7-46fa853fd182">
+                    <propertyInstance
+                      Id="6a06557c-d62c-4d67-b1ff-c3550590a110"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47f09b76-34f3-4b3a-b651-aaa2cba22f92">
+                    <propertyInstance
+                      Id="f8f6e761-30b3-4c31-aaf8-c065fbb42d44"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67a20cda-0381-4583-99d0-4e7ae9bdb787">
+                    <propertyInstance
+                      Id="40349106-7388-43a5-9b50-6858b02be339"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c4e1bbc-2bae-478b-af40-3fa8b53d55c5">
+                    <propertyInstance
+                      Id="97980ada-6db0-4c9d-b0f9-69beef9c6509"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b507fe96-241c-402f-a9b0-6818eea39292"
+                  name="config"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="50dab729-e929-495d-b971-d780f1f36f1c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.2.3%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)]) ParameterIdentifier%3Dconfig"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3d0200c5-10a2-4072-b00b-eedc89603a1f"
+                      LastKnownName="HttpConfiguration"
+                      LastKnownLocation="Package5_1302.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="20c415f9-91b5-48b8-851c-bcaaf9b9de3c"
+        LastKnownName="App_Start"
+        LastKnownLocation="Package_1303.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="83f59fc3-d92b-4a1b-b4ea-87de1ac39293"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package_1304.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f088cc70-a3d2-4b24-82d0-0b5238af9983"
+        LastKnownName="Models"
+        LastKnownLocation="Package_1307.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

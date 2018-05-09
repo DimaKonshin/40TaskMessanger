@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f088cc70-a3d2-4b24-82d0-0b5238af9983"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="076afb5b-b782-48b2-8e08-66e02e4846fb"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebUI.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5dbb1da0-0221-472f-8f79-b0575547aed2"
+        name="EventMsg"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="485fedc7-f7f0-47af-8597-dd2a5a0528ef"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models Type%3DEventMsg"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8f00ec68-81e9-470d-82b5-42b5f6c3d23d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec3b396d-3e61-44e3-9729-fb82e3a04a9e">
+                <propertyInstance
+                  Id="1975bd83-e100-4285-a819-e3df549e9566"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7319f62f-6857-4093-9834-210569056572">
+                <propertyInstance
+                  Id="34d87cd6-48f7-40f2-8a71-778da51de4ae"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f40e23d6-ec9c-4269-9b4a-1ffadab2ae19">
+                <propertyInstance
+                  Id="5cc635e1-5513-4417-addc-1ed793276ffb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cec8dfa-0391-4243-9425-fc8c64285872">
+                <propertyInstance
+                  Id="a79a2e67-0249-4cef-a49a-507841ff1314"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93a90c98-8938-4529-96a7-aed49eee411f">
+                <propertyInstance
+                  Id="1991abcf-1e01-4b40-9a68-a107006ae3f8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="21a17494-57d8-4e41-8a14-a65ab76303f1"
+            isDerived="false"
+            sourceEndRoleName="EventMsg"
+            targetEndRoleName="List"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="403df28d-c9de-4373-b5ae-8f2d72f473bc"
+              LastKnownName="IEnumerable&lt;TaskVM‎&gt;"
+              LastKnownLocation="Package4_1253.uml" />
+            <description>Свойство List ссылается на тип IEnumerable&lt;TaskVM‎&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="93d0c627-21bb-43a5-8ebc-d6d1296794aa"
+                  name="EventMsg"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="671a350f-3790-469f-8ec3-48ecab731593"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="293e0fc3-83e5-445b-a0ed-6f08ee7b4700"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7790fe38-3961-492d-bc1c-d1ab5b13f953"
+                  name="List"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="540fdf40-d8ca-4188-8c25-00c7ca143ef9"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="80529eed-634c-48e5-8839-0dc8495ab541"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="94791ec1-6af4-4df7-bb53-eff67cdaecf6"
+            name="List"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b0584f2d-8790-47a4-9264-8193f4271ed5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models Type%3DEventMsg Member%3DList"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="04db732a-2e99-4968-b799-9241c8f814df"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="035ea9fa-c1c3-4fae-a4c2-5dca04a26fd3">
+                    <propertyInstance
+                      Id="15b841af-831e-4bf9-aab1-41a16a9d8063"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75779521-69a6-4215-90c1-f2aff3e28f1c">
+                    <propertyInstance
+                      Id="4ee4f4ba-8ea5-402d-abe7-3d1b476a8eb8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c344c21c-19b9-45ef-8d2c-dc6a0f9d7a94">
+                    <propertyInstance
+                      Id="a5de5de9-47ef-417f-9f71-118dbb4b2414"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceb78416-3581-4ef7-8048-6b3a88275c28">
+                    <propertyInstance
+                      Id="12f0e9e2-51d8-4047-98cd-069de3e18fd9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cebb705-5a74-449b-884a-c58e244b5199">
+                    <propertyInstance
+                      Id="5f4cc682-8041-45a8-853b-5997e732a1d9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc1ad901-2287-4630-abb4-df2d8ae4012c">
+                    <propertyInstance
+                      Id="2cb72525-d5c4-41f1-bc88-7a3fbed31288"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d75e58c3-00e5-457f-a271-7964af06174e">
+                    <propertyInstance
+                      Id="c8ec91b4-444a-4231-ae2f-8276faa7af92"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="403df28d-c9de-4373-b5ae-8f2d72f473bc"
+                LastKnownName="IEnumerable&lt;TaskVM‎&gt;"
+                LastKnownLocation="Package4_1253.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3945d6b9-3849-48ee-abdd-598c540ebbae"
+            name="Msg"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b6ea563b-d255-4caa-8ab5-0dd773f6db05"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models Type%3DEventMsg Member%3DMsg"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5f94776-0a14-4a9a-bde4-74922a039aef"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41c21875-754b-4948-a610-06da3bc65ff4">
+                    <propertyInstance
+                      Id="073cd960-c2b8-44a2-9d36-58d0c325674c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="463352c4-a517-42d3-979e-1c22edeaba57">
+                    <propertyInstance
+                      Id="9418eb72-7faa-4c9c-8b53-b6209b1bb839"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45ebae45-c94f-4c3f-8c54-10956fb1f9b6">
+                    <propertyInstance
+                      Id="6398ed4a-6a1d-4b2a-8640-4d8cfe65121e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="990fa5a8-0282-4834-9ce4-7e22fcbeb05a">
+                    <propertyInstance
+                      Id="12d63f87-9e6a-4a5b-9d95-08fb4dd000f7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ec69151-bd56-415f-b588-00c38530293b">
+                    <propertyInstance
+                      Id="e497eccb-fbff-453b-8c02-240ed8ef384e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a031ed46-4abd-4198-a660-2c7f945ecb74">
+                    <propertyInstance
+                      Id="07b124ec-ed14-49f4-9491-c64868a54f8d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe5fab69-64bc-4fc4-8fb3-10e733f39445">
+                    <propertyInstance
+                      Id="758e98f3-443e-4f8d-8fdf-66a9d66f75a0"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="UML.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0206469e-983d-4fd9-b9e0-122af49f65f3"
+            name="EventMsg"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4a684896-3a13-4069-bcf7-28be62a7619f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2F12Projects%2F40TaskMessanger%2FWebUI%2Fbin%2FWebUI.dll Namespace%3DWebUI.Models Type%3DEventMsg Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8265b434-b0b5-4186-8d8b-b29f3ab07716"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70cfe6e7-a98b-430d-adbb-5584d3f42898">
+                    <propertyInstance
+                      Id="99ba8234-2cbd-4fdf-b262-d209b0838c6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0898ffbd-25cc-48b8-82de-3f173684747a">
+                    <propertyInstance
+                      Id="968cf584-87cf-4abd-a46e-b53f9843d21a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb380d22-933c-46a1-bc78-549c8d8ac013">
+                    <propertyInstance
+                      Id="24449671-f493-4751-b933-687a964d46e7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bab33eba-3a9d-46be-9d9b-e4a2bff22e7f">
+                    <propertyInstance
+                      Id="ba8ac989-7337-4a98-bf60-6c129a9c2e9b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a8173c5-3bf5-46ea-8a74-1f1555500304">
+                    <propertyInstance
+                      Id="277b6ea8-2041-45bb-a9c4-8cbb9d238af5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0515f02-91af-489e-ad8e-7e73a5b8bb17">
+                    <propertyInstance
+                      Id="80cfcc30-5231-4119-b7aa-4dffc19b9fc0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

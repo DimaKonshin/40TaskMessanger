@@ -11,11 +11,11 @@
 * Database Management System: MS SQL Server
 * Technologies: C#, ASP.NET MVC 5 + Web Api, Entity Framework 6, Ajax, JQuery, Bootstrap
 
-###Note:
+Note:
 * Entity Framework : LazyLoadingEnabled = false;
 * Pattern is implemented Generic Repository
 * The implementation of the Repository pattern and the DbContext instance are embedded with Ninject
 
-###The solution consists of two projects: 
+The solution consists of two projects: 
 * Class library         - Domain. 
 * ASP.NET MVC5 + WebApi - WebUI.
